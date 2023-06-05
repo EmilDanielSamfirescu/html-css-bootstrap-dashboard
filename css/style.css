@@ -15,12 +15,9 @@
     background-color: darkcyan;
 }
 
-.debug .aside >div:first-child {
-    height: calc(100vh - 80px);
-}
-
 .debug .aside  {
     background-color: darkmagenta;
+    max-height: calc(100vh - 70px);
 }
 
 .debug .main-header  {
@@ -29,4 +26,12 @@
 
 .debug .main-header > div  {
     border: 1px dashed black;
+}
+
+.debug ul.list-group > li > img {
+    width: 100%;
+}
+
+.debug .main-corpus {
+    height: calc(100vh - 70px);
 }
