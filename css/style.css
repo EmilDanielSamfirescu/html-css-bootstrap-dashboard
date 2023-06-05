@@ -1,0 +1,21 @@
+/* .debug header {
+    background-color: bisque;
+    width: 100%;
+} */
+
+/* .debug header > nav > .row > div {
+    background-color: olive;
+    border: 2px dashed black;
+} */
+
+.debug #logo-mobile {
+    width: 50px;
+}
+
+.debug #logo {
+    width: 120px;
+}
+
+.debug header nav {
+    background-color: darkcyan;
+}
