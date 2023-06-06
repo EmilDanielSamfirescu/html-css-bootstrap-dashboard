@@ -61,3 +61,7 @@ header {
     --bs-offcanvas-width: 100vw;
 }
 
+td {
+    vertical-align: middle;
+}
+
