@@ -45,22 +45,16 @@ header {
     height: calc(100vh - 70px);
 }
 
-/* .debug .main-header > div  {
-    border: 1px dashed black;
-} */
 
 .rounded-text {
     background-color: rgba(0, 0, 0, 0.3);
     padding: 3px 8px;
     border-radius: 20px;
+    font-size: 0.7em;
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
     color: white;
-}
-
-.form-control {
-    border-color: 1px solid black;
 }
 
 :root{

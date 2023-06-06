@@ -10,6 +10,10 @@
     height: 38px;
 }
 
+.t-none {
+    display:none
+}
+
 
 /* // Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) { 
@@ -24,6 +28,10 @@
 
     .dove-abito {
         width: calc((100% / 3));
+    }
+
+    .t-none {
+        display: table-cell;
     }
 
 }
