@@ -1,4 +1,4 @@
-.debug #logo-mobile {
+.debug #logo-mobile, #class{
     width: 50px;
 }
 
@@ -6,8 +6,12 @@
     width: 120px;
 }
 
-.debug header {
-    
+.debug #class{
+    width: 40px;
+}
+
+.debug header .row {
+    background-color: grey;
 }
 
 .debug header {
