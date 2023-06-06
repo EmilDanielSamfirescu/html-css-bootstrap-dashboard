@@ -138,18 +138,102 @@
                         <div class="col-12 col-md-4 col-lg-3 order-1 order-md-3 py-3">
                             <div>
                                 <span class="pe-3">Nuovo studente</span>
-                                <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
+                                <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas"       data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i>
+                                </button>
     
                                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                     <div class="offcanvas-header">
-                                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisi Nuovo Studente</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                     </div>
     
-                                    <div class="offcanvas-body">
+                                    <div class="offcanvas-body" >
                                         <form action="index.html">
+
+                                            <div class="row">
+                                                <div class="nome compilazione mt-1">
+                                                    <label for="Nome" name="Nome" >Nome</label> <br>
+                                                    <input type="text" class="mt-1">
+                                                </div>
     
-                                            <div class="mb-3">
+                                                <div class="nome compilazione mt-1">
+                                                    <label for="Cognome" name="Cognome" >Cognome</label> <br>
+                                                    <input type="text" class="mt-1">
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="email compilazione mt-1">
+                                                    <label for="Email" name="Email" >Email adress</label> <br>
+                                                    <input type="email" class="mt-1">
+                                                </div>
+    
+                                                <div class="nome compilazione mt-1">
+                                                    <label for="Email" name="Email" >Confirm Email adress</label> <br>
+                                                    <input type="email" class="mt-1">
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="password compilazione mt-1">
+                                                    <label for="Password" name="Password" >Password</label> <br>
+                                                    <input type="password" class="mt-1">
+                                                </div>
+    
+                                                <div class="password compilazione mt-1">
+                                                    <label for="Password" name="Password" >Confirm Password</label> <br>
+                                                    <input type="password" class="mt-1">
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="indirizzo compilazione mt-1">
+                                                    <label for="Indirizzo" name="Indirizzo" >Indirizzo</label> <br>
+                                                    <input type="text" class="mt-1">
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="città compilazione dove-abito mt-1">
+                                                    <label for="città" name="città">Città</label>
+                                                    <input type="text" class="mt-1">
+                                                </div>
+
+                                                <div class="città compilazione dove-abito mt-1">
+                                                    <label for="stato">Stato</label>
+                                                    <select class="form-select mt-1" aria-label="Default select example">
+                                                        <option selected>Scegli stato</option>
+                                                        <option value="1">Italia</option>
+                                                        <option value="2">Vengo Dalla Luna</option>
+                                                        <option value="3">Non mi ricordo</option>
+                                                    </select>
+                                                </div>
+
+                                                <div class="cap compilazione dove-abito mt-1">
+                                                    <label for="cap" name="cap">CAP</label>
+                                                    <input type="text" maxlength="5" class="mt-1">
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="indirizzo compilazione mt-1">
+                                                    <label for="formFile" class="form-label">Foto</label>
+                                                    <input class="form-control" type="file" id="formFile">
+                                                </div>
+                                            </div>
+
+                                            <div class="form-check mt-4">
+                                                <input class="form-check-input mt-1" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Seleziona per proseguire
+                                                </label>
+                                            </div>
+    
+                                            <button class="btn btn-primary mt-3" type="submit">Salva</button>
+                                            <button class="btn btn-warning mt-3" type="reset">Svuota</button>
+
+    
+                                            <!-- <div class="mb-3">
                                                 <label for="Nome" name="Nome" class="form-label">Nome</label>
                                                 <input type="text" class="form-control" id="exampleFormControlInput1">
                                             </div>
@@ -217,7 +301,7 @@
                                             </div>
     
                                             <button class="btn btn-primary" type="submit">Salva</button>
-                                            <button class="btn btn-primary" type="reset">Svuota</button>
+                                            <button class="btn btn-primary" type="reset">Svuota</button> -->
                                             
     
                                         </form>
