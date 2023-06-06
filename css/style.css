@@ -1,4 +1,4 @@
-.debug #logo-mobile, #class{
+.debug #logo-mobile {
     width: 45px;
 }
 
@@ -10,11 +10,16 @@
     width: 40px;
 }
 
-.debug header .row {
+ul.list-group > li > img {
+    width: 100%;
+    display: block;
+}
+
+header .row {
     background-color: grey;
 }
 
-.debug header {
+header {
     height: 70px;
     background-color: rgb(242, 242, 242);
 }
@@ -23,7 +28,7 @@
     background-color: rgb(215, 215, 215);
 }
 
-.debug .aside  {
+.aside  {
     background-color: #061E34;
     background-image: url('../img/sidebar-bg.png');
     background-repeat: no-repeat;
@@ -32,26 +37,25 @@
     max-height: calc(100vh - 70px);
 }
 
-.debug .aside a {
-    color: white;
-}
-
-.debug .aside .nav-item:hover {
+.nav-item:hover {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-.debug .main-header  {
-    background-color: yellow;
-}
-
-.debug .main-header > div  {
-    border: 1px dashed black;
-}
-
-.debug ul.list-group > li > img {
-    width: 100%;
-}
-
-.debug .main-corpus {
+.main-corpus {
     height: calc(100vh - 70px);
 }
+
+/* .debug .main-header > div  {
+    border: 1px dashed black;
+} */
+
+.rounded-text {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 3px 8px;
+    border-radius: 20px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: white;
+}
+

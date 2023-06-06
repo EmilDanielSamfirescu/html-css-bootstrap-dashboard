@@ -69,19 +69,19 @@
                         <nav>
                             <ul class="nav flex-column py-3">
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#">
+                                    <a class="nav-link text-white" aria-current="page" href="#">
                                         <span class="pe-2"><i class="fa-solid fa-house"></i></span>
                                         <span class="d-none d-lg-inline-block">Home</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">
+                                    <a class="nav-link text-white" href="#">
                                         <span class="pe-2"n><i class="fa-solid fa-chart-simple"></i></span>
                                         <span class="d-none d-lg-inline-block">Stats</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">
+                                    <a class="nav-link text-white" href="#">
                                         <span class="pe-2"n><i class="bi bi-reception-4"></i></span>
                                         <span class="d-none d-lg-inline-block">Signal</span>
                                     </a>
@@ -93,7 +93,7 @@
                     <div class="text-center">
                         <ul class="nav py-3">
                             <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link text-white" href="#">
                                 <span class="pe-2"><i class="bi bi-gear-fill"></i></span>
                             <span class="d-none d-lg-inline-block">Admin</span>
                             </a>
@@ -106,21 +106,39 @@
                 <div class="col main-corpus overflow-auto">
     
                     <!-- MAIN HEADER -->
-                    <div class="row main-header">
-                        <div class="col-12 col-md-4 col-lg-6 order-2 order-md-1">
-                            <div>sopra sinistra</div>
-                            <div>sotto</div>
-                        </div>
-    
-                        <div class="col-12 col-md-4 col-lg-3 order-2 order-md-1">
-                            <div>sopra centro</div>
-                            <div>sotto</div>
-                        </div>
-    
-                        <div class="col-12 col-md-4 col-lg-3 order-1 order-md-3">
+                    <div class="row main-header bg-primary text-white">
+                        <div class="col-12 col-md-4 col-lg-6 order-2 order-md-1 py-3">
                             <div>
-                                <span>Nuovo studente</span>
-                                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
+                                <h1 class="d-inline-block">Boolean</h1>
+                                <span class="rounded-text">Piano blaze</span>
+                            </div>
+                            <div>
+                                <nav style="--bs-breadcrumb-divider: '>>';" aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item mt-2"><a href="#" class="text-white text-decoration-none rounded-text">3 App</a></li>
+                                        
+                                        <li class="breadcrumb-item d-lg-none mt-2" aria-current="page"><a href="#" class="text-decoration-none text-white rounded-text">+</a></li>
+
+                                        <li class="breadcrumb-item d-none d-lg-inline-block mt-2" aria-current="page"><a href="#" class="text-decoration-none text-white rounded-text">Boolean Mobile App</a></li>
+
+                                        <li class="px-2 d-none d-lg-inline-block mt-2"><a href="#" class="text-decoration-none text-white rounded-text">Boolean Mobile App</a></li>
+
+                                        <li class="d-none d-lg-inline-block mt-2"><a href="#" class="text-decoration-none text-white rounded-text">Boolean Mobile App</a></li>
+                                        
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+    
+                        <div class="col-12 col-md-4 col-lg-3 order-2 order-md-1 py-3">
+                            <div>Studenti negli ultimi 30 minuti</div>
+                            <div class="py-2"><h3>125</h3></div>
+                        </div>
+    
+                        <div class="col-12 col-md-4 col-lg-3 order-1 order-md-3 py-3">
+                            <div>
+                                <span class="pe-3">Nuovo studente</span>
+                                <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
     
                                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                     <div class="offcanvas-header">
